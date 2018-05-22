@@ -1,0 +1,136 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav li {
+        list-style: none;
+        display: inline-block;
+        margin: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.botoniniciar {
+    background-color: #4285f4;
+    font-weight: 600;
+    height: 30px;
+    width: auto;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    color: white;
+    padding: 2px 10px;
+}
+
+nav {
+    position: fixed;
+    right: 20px;
+}
+
+.logo {
+    position: relative;
+    top: 250px;
+    width: 272px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textbox {
+    display: block;
+    position: relative;
+    top: 260px;
+    width: 500px;
+    height: 40px;
+    margin-top: 2;0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px #f2f2f2;
+    border-bottom-color: #c7c7c7;
+}
+
+.searchbuttons {
+    position: relative;
+    top: 300px;
+    width: 293px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    background-color: #f2f2f2;
+    color: grey;
+    font-weight: 600;
+    padding: 10px 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.country {
+    position: relative;
+    top: 320px;
+    font-size: 13px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footcontainer2 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.footcontainer2 ul li{
+    display: inline-block;
+}
+
+.footcontainer2 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.footcontainer1 {
+    background-color: #f2f2f2;
+    height: 30px;
+    border: solid 1px #f7f7f7;
+    border-bottom: none;
+}
+
+.footcontainer1 p {
+    padding: 5px;
+    margin: 0px 20px;;
+    color: grey;
+}
+.footcontainer2 {
+    background-color: #f2f2f2;
+    height: 30px;
+    border: solid 1px #f7f7f7;
+   }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.liright {
+    padding: 5px;
+    float: right;
+    margin: 0 20px;
+}
+
+.lileft {
+    padding: 5px;
+    float: left;
+    margin: 0px 20px;
+}
